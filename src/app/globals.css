@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand CSS Variables */
+:root {
+  --color-primary: theme('colors.primary');
+  --color-secondary: theme('colors.secondary');
+  --color-tertiary: theme('colors.tertiary');
+  --color-cyan: theme('colors.cyan');
+  --color-mint: theme('colors.mint');
+  --background: theme('colors.surface');
+  --foreground: theme('colors.onSurface');
+}
+
+/* Light Mode Overrides */
+[data-theme='light'] {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dark Mode Overrides */
+[data-theme='dark'] {
+  --background: theme('colors.surface');
+  --foreground: theme('colors.onSurface');
+}
+
+/* Slow Gradient Animation */
+@keyframes slowGradient {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+.animate-slow-gradient {
+  background-size: 200% 200%;
+  animation: slowGradient 15s ease infinite;
+}

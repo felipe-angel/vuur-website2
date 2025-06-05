@@ -10,7 +10,10 @@ export default function IntroVideo() {
   const introOpacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 1, 1, 0]);
 
   return (
-    <section ref={introRef} className="relative h-[75vh] flex items-center justify-center overflow-hidden bg-black">
+    <section
+      ref={introRef}
+      className="relative h-[75vh] flex items-center justify-center overflow-hidden bg-black"
+    >
       <motion.video
         src="https://firebasestorage.googleapis.com/v0/b/vuursocial-media-9aed0.firebasestorage.app/o/Our-Services.mp4?alt=media&token=0cd2ab2a-ef5b-467c-b84b-08aeeb4f16cc"
         autoPlay muted loop playsInline

@@ -1,4 +1,3 @@
-// File: src/components/ServiceCard.tsx
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -23,9 +22,10 @@ export default function ServiceCard({ svc, idx }: Props) {
   const opacity = useTransform(scrollYProgress, [0, 0.3, 1], [0.8, 1, 0.8]);
 
   /* ───────────────── responsive track & overlap ───────────────── */
+  // Removed the negative xs-margin so on mobile cards don't overlap above content.
   const overlap =
     idx > 0
-      ? 'mt-[-25svh] sm:mt-[-40svh] md:mt-[-55vh] lg:mt-[-70vh]'
+      ? 'sm:mt-[-30svh] md:mt-[-40vh] lg:mt-[-50vh]'
       : '';
 
   return (

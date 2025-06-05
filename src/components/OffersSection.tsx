@@ -36,11 +36,13 @@ export default function OffersSection() {
   return (
     <section
       id="offers"
-      className="py-24 px-4 bg-gradient-to-b from-black via-[#001f3f] to-black"
+      // reduced vertical padding from py-24 → py-16
+      className="py-16 px-4 bg-gradient-to-b from-black via-[#001f3f] to-black"
     >
-      {/* Heading: emoji in default color, text gradient */}
-      <h2 className="text-6xl font-bold text-center mb-16">
-        <span>🎁 </span>
+      {/* Heading */}
+      <h2 className="text-6xl font-bold text-center mb-12">
+        {/* reduced mb-16 → mb-12 to pull cards up slightly */}
+        
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ff5400] to-[#6f3ff5]">
           Exclusive Offers for New Clients
         </span>

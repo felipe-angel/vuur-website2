@@ -35,3 +35,7 @@
   background-size: 200% 200%;
   animation: slowGradient 15s ease infinite;
 }
+
+/* Hide horizontal scrollbar (Chrome/Safari/Edge/Firefox) */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

@@ -20,8 +20,8 @@ export default function RealEstatePage() {
       <main className="bg-black text-white">
         <HeroSection />
         <FeatureSections />
-        <ProcessSection />
         <RealEstateGalleryCTA />
+        <ProcessSection />
         <CTASection />
         <Footer />
       </main>

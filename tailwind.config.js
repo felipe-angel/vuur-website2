@@ -24,6 +24,9 @@ module.exports = {
       animation: {
         slowGradient: 'slowGradient 15s ease infinite',
       },
+      plugins: [
+        require('@tailwindcss/line-clamp'),
+      ],
     },
   },
   plugins: [],

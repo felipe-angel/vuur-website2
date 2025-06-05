@@ -183,7 +183,7 @@ export default function ContactPage() {
                   I’m interested in: (select all that apply)
                 </legend>
                 <div className="mt-2 space-y-2">
-                  {['Website', 'Social', 'Real Estate', 'Branding'].map((svc) => (
+                  {['Website', 'Social Media', 'Real Estate Media'].map((svc) => (
                     <div key={svc} className="flex items-center">
                       <input
                         id={svc}

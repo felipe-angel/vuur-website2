@@ -10,7 +10,7 @@ import FeatureSections from '@/components/RealEstateFeatures';
 import ProcessSection from '@/components/RealEstateProcess';
 import CTASection from '@/components/RealEstateCTA';
 import RealEstateGalleryCTA from '@/components/RealEstateGalleryCTA';
-import RealEstateGallery from '@/components/RealEstateGallery';
+
 
 export default function RealEstatePage() {
   return (

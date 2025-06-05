@@ -71,7 +71,7 @@ export default function RealEstateHouse1Gallery() {
           className="relative max-w-4xl mx-auto mb-16 overflow-hidden rounded-3xl shadow-xl"
         >
           <video
-            src="/images/real-estate  /house3/h1v2.mov"
+            src="https://firebasestorage.googleapis.com/v0/b/vuursocial-media-9aed0.firebasestorage.app/o/h1v2.mp4?alt=media&token=f92d8046-ea93-4369-a72f-76dd478dd024"
             controls
             className="w-full h-96 object-cover rounded-3xl bg-black"
           />
